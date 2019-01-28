@@ -41,32 +41,4 @@ while(True):
 			break
 			
 		
-	#numberList = [int(s) for s in inputString.split() if s.isdigit()]
-	# print(numberList)
-	#operators = []
-	# for s in inputString.split(','):
-	# 	if ('plus' or '+'):
-	# 		operators.append(char('+'));
-	# 	if ('minus' or '-'):
-	# 		operators.append(char('-'));
-	# 	if ('multiplied by' or 'x' or 'star'):
-	# 		operators.append(char('*'));
-	# 	if ('divided by' or '/'):
-	# 		operators.append(char('/'));
-	#print(operators)
- #    sum = 0;
- #    for(i = 0; i < numberList.len(); i = i + 1):
- #    	if(numberList[i] != ''):
- #    		if(operators[i] != ''):
- #    			sum = sum + numberList[i] 
- #    for x in numberList:
- #    	if((x != ' ') or (x != 'plus') or (x != '+')):
- #    		sum = sum + int(x);
-
-#try:
-    #print("You said " + r.recognize_google(audio1))
-    #print("You said " + r.recognize_google(audio2))
-    #print("You said " + r.recognize_google(audio3))    
-    # recognize speech using Google Speech Recognition
-#except:                           
- #   pass
+	
