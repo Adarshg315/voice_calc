@@ -10,10 +10,10 @@ speak = Dispatch("SAPI.SpVoice")
 speak.Volume = 100
 speak.Rate = 4
 
-# speak.Speak('''This is the voice calculator,Speak out the operation like 
-# 					   first number, operation to be performed and then the second number.
-# 					   For example, for 1 + 2 say one, plus, two and so on....
-# 					   Speak''')
+speak.Speak('''This is the voice calculator,Speak out the operation like 
+					   first number, operation to be performed and then the second number.
+					   For example, for 1 + 2 say one, plus, two and so on....
+					   Speak''')
 	
 while(True):
 	with sr.Microphone() as source:
