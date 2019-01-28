@@ -39,6 +39,3 @@ while(True):
 			print("Terminating")
 			speak.Speak("Terminating")
 			break
-			
-		
-	
