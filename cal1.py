@@ -19,11 +19,25 @@ while(True):
 	with sr.Microphone() as source:
 		audio1 = r.listen(source)
 		inputString = r.recognize_google(audio1, language= "en-IN")
-		
+		inputString = inputString.replace("into", "*")
+		inputString = inputString.replace("divided by", "/")
+		inputString = inputString.replace("multiplied by", "*")
+		inputString = inputString.replace("minus", "-")
+		inputString = inputString.replace("plus", "+")
+		inputString = inputString.replace("one", "1 ")
+		inputString = inputString.replace("two", "2")
+		inputString = inputString.replace("three", "3")
+		inputString = inputString.replace("four", "4")
+		inputString = inputString.replace("five", "5")
+		inputString = inputString.replace("six", "6")
+		inputString = inputString.replace("seven", "7")
+		inputString = inputString.replace("eight", "8")
+		inputString = inputString.replace("nine", "9")
+		inputString = inputString.replace("ten", "10")
+
 		speak.Speak(" You said {} " + inputString)
 		print("You said :", inputString)
 		
-
 		speak.Speak("output is {} " + str(eval(inputString)))
 		print("output is : ", eval(inputString))
 		
