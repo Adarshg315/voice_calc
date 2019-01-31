@@ -1,6 +1,6 @@
 import speech_recognition as sr 
 from win32com.client import Dispatch
-import numpy as np
+
 
 r = sr.Recognizer()
 
