@@ -1,0 +1,5 @@
+This project requires.....
+1. python version >=3.6 it will not work in python ver>= 3.7 as no pyaudio module is there.
+2.for speech_recogtnition -> (pip install SpeechRecognition)
+      winclinet32-> (pip install pywin32)
+      
